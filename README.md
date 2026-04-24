@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="public/logo.png" alt="ALOR DISHA Logo" width="170" />
+  <img src="public/readme/logo-animated.svg" alt="ALOR DISHA Animated Logo" width="320" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=2600&pause=700&color=0B8457&center=true&vCenter=true&repeat=true&width=700&lines=ALOR+DISHA+Institution+Management+Platform;Live+Production+System;Proprietary+Codebase+-+All+Rights+Reserved" alt="Animated heading" />
+  <img src="https://readme-typing-svg.demolab.com?font=Exo+2&weight=700&size=30&duration=2600&pause=900&color=0B8457&center=true&vCenter=true&repeat=true&width=860&lines=ALOR+DISHA+Institution+Management+Platform;Real+World+Live+Production+System;Private+Proprietary+Codebase+-+All+Rights+Reserved" alt="Animated heading" />
 </p>
 
 <p align="center">
