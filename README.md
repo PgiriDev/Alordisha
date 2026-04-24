@@ -1,93 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/logo.png" alt="ALOR DISHA Logo" width="170" />
 </p>
 
-## About Laravel
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=2600&pause=700&color=0B8457&center=true&vCenter=true&repeat=true&width=700&lines=ALOR+DISHA+Institution+Management+Platform;Live+Production+System;Proprietary+Codebase+-+All+Rights+Reserved" alt="Animated heading" />
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="https://alordisha.mooo.com"><img src="https://img.shields.io/badge/Live-alordisha.mooo.com-0B8457?style=for-the-badge" alt="Live Site"></a>
+  <img src="https://img.shields.io/badge/Status-Production-critical?style=for-the-badge" alt="Production Status">
+  <img src="https://img.shields.io/badge/Copyright-ALOR%20DISHA-black?style=for-the-badge" alt="Copyright">
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# ALOR DISHA
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+ALOR DISHA is a real-world institutional platform currently running in live production.
 
-## Learning Laravel
+Live URL: https://alordisha.mooo.com
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Strict Legal Notice
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+> WARNING
+>
+> This repository is private intellectual property of ALOR DISHA.
+> Copying, cloning, redistributing, republishing, modifying for resale, or reusing this codebase (in full or in part) without written authorization is illegal.
 
-## Laravel Sponsors
+All Rights Reserved by ALOR DISHA.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- This project is built for actual institutional operations.
+- Public visibility does not mean open-source permission.
+- No license is granted for reuse, commercial deployment, or derivative replication.
 
-### Premium Partners
+## Platform Scope
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Student profile and transfer workflow
+- Attendance management and reporting
+- Fees, payment settings, and receipt configuration
+- Book collection and knowledge management
+- Notice publishing and communication features
+- Role-based user and branch operations
+- Mail workflows: teacher welcome, login alert, attendance summary
+- Chatbot response system with local knowledge priority
 
-## Contributing
+## Security and Ownership
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Unauthorized access, extraction, or reuse is prohibited.
+- Infrastructure, source code, workflows, and data models are proprietary.
+- For any legal permission, licensing, or official integration request, contact ALOR DISHA authority.
 
-## Code of Conduct
+## Copyright
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Alor Disha Chatbot (Knowledge + AI Fallback)
-
-This project includes a public chatbot endpoint at `/chatbot/ask`.
-
-- First priority: local `knowledge_items` table (Alor Disha specific answers).
-- Fallback: external AI API for general questions.
-
-### Setup
-
-1. Run migration:
-	- `php artisan migrate`
-2. Seed default Alor Disha knowledge:
-	- `php artisan db:seed --class=KnowledgeItemSeeder`
-3. Optional AI fallback config in `.env`:
-	- `AI_API_KEY=...`
-	- `AI_MODEL=gpt-4o-mini`
-	- `AI_BASE_URL=https://api.openai.com/v1`
-
-### How to Teach Alor Disha Details
-
-Add/edit rows in `knowledge_items` table:
-
-- `question`: canonical question
-- `answer`: final response to return
-- `keywords`: comma-separated terms (Bangla/English)
-- `priority`: higher value = preferred match
-- `is_active`: enable/disable item
-
-Example:
-
-- question: `Alor Disha fee details`
-- answer: `বর্তমান fee structure জানতে +91 74079 17787 নম্বরে যোগাযোগ করুন।`
-- keywords: `fee,fees,payment,মাসিক ফি,চার্জ`
+Copyright (c) ALOR DISHA.
+All Rights Reserved.
