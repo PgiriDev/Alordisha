@@ -1,0 +1,46 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#031321"/>
+      <stop offset="100%" stop-color="#05263A"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.50"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#0B8457" stop-opacity="0.24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+
+  <g opacity="0.95">
+    <path d="M0 180 C 130 145, 240 215, 360 180 C 470 150, 590 214, 720 176 C 845 140, 968 216, 1200 176 L1200 260 L0 260 Z" fill="url(#waveA)">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite"
+        values="M0 180 C 130 145, 240 215, 360 180 C 470 150, 590 214, 720 176 C 845 140, 968 216, 1200 176 L1200 260 L0 260 Z;
+                M0 185 C 120 220, 252 148, 360 188 C 490 230, 594 146, 720 186 C 846 224, 980 150, 1200 184 L1200 260 L0 260 Z;
+                M0 180 C 130 145, 240 215, 360 180 C 470 150, 590 214, 720 176 C 845 140, 968 216, 1200 176 L1200 260 L0 260 Z"/>
+    </path>
+
+    <path d="M0 202 C 110 168, 240 234, 370 200 C 506 166, 622 234, 756 198 C 900 160, 1020 230, 1200 198 L1200 260 L0 260 Z" fill="url(#waveB)">
+      <animate attributeName="d" dur="7.5s" repeatCount="indefinite"
+        values="M0 202 C 110 168, 240 234, 370 200 C 506 166, 622 234, 756 198 C 900 160, 1020 230, 1200 198 L1200 260 L0 260 Z;
+                M0 206 C 120 240, 250 168, 380 206 C 504 244, 632 170, 760 208 C 898 244, 1016 170, 1200 206 L1200 260 L0 260 Z;
+                M0 202 C 110 168, 240 234, 370 200 C 506 166, 622 234, 756 198 C 900 160, 1020 230, 1200 198 L1200 260 L0 260 Z"/>
+    </path>
+  </g>
+
+  <g opacity="0.8" fill="#9EEAF9">
+    <circle cx="210" cy="70" r="2.8">
+      <animate attributeName="cy" values="70;60;70" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="86" r="2.3">
+      <animate attributeName="cy" values="86;74;86" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="56" r="2">
+      <animate attributeName="cy" values="56;48;56" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="public/logo.png" alt="ALOR DISHA Logo" width="120" />
+  <img src="public/readme/water-wave.svg" alt="Water Wave Background" width="900" />
 </p>
 
 <p align="center">
-  <img src="public/readme/logo-animated.svg" alt="ALOR DISHA Animated Ring" width="280" />
+  <img src="public/logo.png" alt="ALOR DISHA Logo" width="120" />
 </p>
 
 <p align="center">
