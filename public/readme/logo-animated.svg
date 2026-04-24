@@ -31,8 +31,9 @@
     </circle>
   </g>
 
-  <circle cx="210" cy="130" r="64" fill="#FFFFFF" opacity="0.95"/>
-  <image href="../logo.png" x="148" y="68" width="124" height="124" clip-path="url(#logoClip)" preserveAspectRatio="xMidYMid slice"/>
+  <circle cx="210" cy="130" r="64" fill="#FFFFFF" opacity="0.96"/>
+  <circle cx="210" cy="130" r="54" fill="#0B8457" opacity="0.10"/>
+  <text x="210" y="138" text-anchor="middle" font-size="34" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#0B8457">AD</text>
 
   <g fill="#0B8457" opacity="0.85">
     <circle cx="130" cy="76" r="4">
