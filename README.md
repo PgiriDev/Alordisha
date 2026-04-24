@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="public/readme/logo-animated.svg" alt="ALOR DISHA Animated Logo" width="320" />
+  <img src="public/logo.png" alt="ALOR DISHA Logo" width="120" />
 </p>
 
 <p align="center">
-  <img src="public/logo.png" alt="ALOR DISHA Logo" width="110" />
+  <img src="public/readme/logo-animated.svg" alt="ALOR DISHA Animated Ring" width="280" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Exo+2&weight=700&size=30&duration=2600&pause=900&color=0B8457&center=true&vCenter=true&repeat=true&width=860&lines=ALOR+DISHA+Institution+Management+Platform;Real+World+Live+Production+System;Private+Proprietary+Codebase+-+All+Rights+Reserved" alt="Animated heading" />
+  <img src="https://readme-typing-svg.demolab.com?font=Exo+2&weight=700&size=28&duration=2600&pause=900&color=0B8457&center=true&vCenter=true&repeat=true&width=760&lines=ALOR+DISHA+Institution+Management+Platform;Real+World+Live+Production+System;Private+Codebase+-+All+Rights+Reserved" alt="Animated heading" />
 </p>
 
 <p align="center">
