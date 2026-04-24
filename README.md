@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="public/readme/water-wave.svg" alt="Water Wave Background" width="900" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:10b981&height=120&section=header&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
 </p>
 
 <p align="center">
-  <img src="public/logo.png" alt="ALOR DISHA Logo" width="120" />
+  <img src="public/logo.png" alt="ALOR DISHA Logo" width="180" />
 </p>
 
 <p align="center">
